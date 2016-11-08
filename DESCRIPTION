@@ -1,6 +1,6 @@
 Package: oii
 Title: Crosstab and Statistical Tests for OII MSc Stats Course
-Version: 1.0
+Version: 1.0.1
 Description: Provides simple crosstab output with optional statistics (e.g.,
     Goodman-Kruskal Gamma, Somers' d, and Kendall's tau-b) as well as two-way
     and one-way tables. The package is used within the statistics component of
@@ -20,6 +20,6 @@ LazyData: true
 Imports: rapportools, gmodels, Deducer
 RoxygenNote: 5.0.1
 NeedsCompilation: no
-Packaged: 2016-10-02 14:02:42 UTC; shale
+Packaged: 2016-11-08 13:06:07 UTC; shale
 Repository: CRAN
-Date/Publication: 2016-10-02 16:10:59
+Date/Publication: 2016-11-08 16:50:39
