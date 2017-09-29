@@ -39,4 +39,3 @@ oii.freq(var)
 \code{\link{data.frame}}, \code{\link{row.names}}
 \code{\link{is.na}},  \code{\link{length}}, \code{\link{summary}}, \code{\link{table}}
 }
-

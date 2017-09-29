@@ -52,4 +52,3 @@ oii.summary(tmp,extended=TRUE)
 \code{\link{summary}}, \code{\link{min}}, \code{\link{median}}, \code{\link{mean}}, \code{\link{max}}, \code{\link{sd}},
 \code{\link{is.na}}, \code{\link{is.numeric}}, \code{\link[rapportools]{skewness}}, \code{\link[rapportools]{kurtosis}}, \code{\link{var}}
 }
-

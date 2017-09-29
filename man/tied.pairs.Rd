@@ -23,4 +23,3 @@ The number of tied pairs, a measure of association
 \seealso{
 \code{\link{association.measures}}, \code{\link{concordant.pairs}}, \code{\link{discordant.pairs}}
 }
-

@@ -47,4 +47,3 @@ association.measures(var1,var2)
 \code{\link{oii.xtab}}, \code{\link[Deducer]{likelihood.test}}, \code{\link[rapportools]{lambda.test}},
 \code{\link{concordant.pairs}}, \code{\link{discordant.pairs}}, \code{\link{tied.pairs}}
 }
-

@@ -20,4 +20,3 @@ The number of concordant pairs in a table or matrix
 \seealso{
 \code{\link{association.measures}}, \code{\link{discordant.pairs}}, \code{\link{tied.pairs}}
 }
-

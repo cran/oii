@@ -83,7 +83,7 @@ discordant.pairs <- function(x,y=NULL){
 	## get sum(matrix values > r AND < c) 
 	## for each matrix[r, c] 
 	mat.ll <- function(r,c){ 
-		ll <- x[(r.x > r) & (c.x < c)] 
+		ll <- tab[(r.x > r) & (c.x < c)] 
 		sum(ll) 
 	} 
 
@@ -117,10 +117,7 @@ tied.pairs <- function(x,y=NULL) {
 	
 	tied.first <- function(tab){ 
 		mult<-function(r,c) {
-			#print(paste(r,c))
-			#print((r.x > r) & (c.x == c))
-			#print(x[(r.x > r) & (c.x == c)] ) 
-			lr <- x[(r.x == r) & (c.x > c)]
+			lr <- tab[(r.x == r) & (c.x > c)]
 			tab[r,c]*sum(lr)
 		}
 

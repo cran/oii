@@ -7,7 +7,7 @@
 oii.xtab(r, c = NULL, s = NULL, row = FALSE, col = FALSE,
   pctcell = FALSE, stats = FALSE, rescell = FALSE, chistd = FALSE,
   expcell = FALSE, chicell = FALSE, warnings = FALSE, varnames = NULL,
-  ...)
+  include.missing = FALSE, ...)
 }
 \arguments{
 \item{r}{the row variable. If \code{r} is a \code{\link{table}}, \code{\link{data.frame}}, or \code{\link{matrix}}, then \code{c} and \code{s} are ignored.}
@@ -35,6 +35,8 @@ oii.xtab(r, c = NULL, s = NULL, row = FALSE, col = FALSE,
 \item{warnings}{a logical value indicating whether warnings should be shown (defaults to FALSE, no warnings).}
 
 \item{varnames}{Names used to refer to \code{r}, \code{c}, and \code{s} in the printed output.}
+
+\item{include.missing}{Set to TRUE to include factor levels with no instances in the output. Default (FALSE) excludes them.}
 
 \item{...}{Additional parameters to be passed to \code{\link[gmodels]{CrossTable}}.}
 }
@@ -82,4 +84,3 @@ oii.xtab(my.data.frame[,c("var3","var1","var2")],stats=TRUE)
 \seealso{
 \code{\link{association.measures}}, \code{\link[gmodels]{CrossTable}}, \code{\link[Deducer]{likelihood.test}}, \code{\link[rapportools]{lambda.test}}
 }
-

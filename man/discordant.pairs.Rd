@@ -20,4 +20,3 @@ The number of discordant pairs in a table or matrix
 \seealso{
 \code{\link{association.measures}}, \code{\link{concordant.pairs}}, \code{\link{tied.pairs}}
 }
-
