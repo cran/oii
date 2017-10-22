@@ -1,9 +1,9 @@
-af7443dea8f7a27de250e92563efd755 *DESCRIPTION
+a8c65cbf79088acd5d8180b53c83ab0c *DESCRIPTION
 c483004fff18aac9e4f6f51064a0471e *LICENSE
 64b47623ed62903ce816fb12959eed42 *NAMESPACE
 7388583f889cbfbdc522a811851a7d51 *R/oii.R
 735a8427e23456f7bc6cf7eaf71aef5e *R/oii_association_measures.R
-010c47027852ce8d86467c72436e800a *R/oii_freq.R
+61eed797020e6769f144b16976e18bec *R/oii_freq.R
 59feae39c520f39e06279b009afb49b6 *R/oiisummary.R
 67eb052b81d05ee18f510d6b32747ccb *R/oiixtab.R
 555fd301a56fefcd358e1145e744cd9e *man/association.measures.Rd
